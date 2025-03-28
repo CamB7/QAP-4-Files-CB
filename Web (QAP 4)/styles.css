@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.mainbox {
+  width: 1000px;
+  background-color: white;
+  border: 3px solid gray;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.receipttable {
+  width: 375px;
+  margin: auto;
+}
+
+.receipttable th {
+  text-align: center;
+  padding: 15px;
+  font-weight: 400;
+}
+
+.receipttable td {
+  text-align: left;
+  padding: 10px;
+}
